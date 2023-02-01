@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+h2, h3 {
+  font-family: 'Montserrat';
+}
+
+.button {
+  padding: 7px 14px;
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  color: #EA9191;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px 0;
+}
+
+.button:hover {
+  color: white;
+  background-color: #EA9191;
+}
+
+/* HEADER */
+
+header {
+  background-image: linear-gradient(45deg, rgba(230, 179, 49, 0.43599446614583337) 6%, rgba(226, 141, 144, 0.45840342973126746) 25%, rgba(234, 145, 145, 0.5704482476584384) 59%, rgba(75, 73, 117, 0.4696079115239846) 78%),
+                    url("images/photo.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header > div {
+  padding: 20vh 0;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+header::after {
+  content: '';
+  display: block;
+  position: relative;
+  left: calc(50% - 75px);
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-right-width: 50px;
+  border-left-width: 50px;
+  border-bottom: 50px solid #fff;
+}
+
+/* MAIN */
+
+.bg-yellow {
+  background-color: #E6B331;
+  background-image: url("images/grain.png");
+}
+
+#naturel-infos h2 {
+  color: #4B4975;
+}
+
+#produit {
+  box-shadow: 11px 10px 49px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+#produit img {
+  width: 200px;
+}
+
+#produit h2 {
+  color: #EA9191;
+}
+
+#produit h3 {
+  color: #4B4975;
+}
+
+/* FOOTER */
+
+footer {
+  background: linear-gradient(45deg, rgba(75, 73, 117, 0.8197479675463936) 0%, rgba(226, 141, 144, 0.8085434857536764) 10%, rgba(234, 145, 145, 0.8085434857536764) 78%, rgba(230, 179, 49, 0.648879620207458) 94%);
+  background-size: cover;
+  color: white;
+}
+
+#copyright::before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 1px solid white;
+  width: 50%;
+}
+
+input, textarea {
+  background-color: rgba(255, 255, 255, 0.35);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.alt-button {
+  padding: 7px 14px;
+  border-radius: 15px;
+  border: none;
+  background-color: #EA9191;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px 0;
+  position: relative;
+  left: 38%;
+  bottom: 13%;
+}
+
+.alt-button:hover {
+  background-color: white;
+  color: #EA9191;
+}
+
+.media-icons img {
+  width: 45px;
+}
