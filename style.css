@@ -36,6 +36,9 @@ header {
 
 a {
   text-decoration: none;
+}
+
+ul li a {
   color: white;
   font-weight: bold;
 }
@@ -93,6 +96,49 @@ header::after {
   color: #4B4975;
 }
 
+#other-product img {
+  width: 200px;
+}
+
+#other-product h2 {
+  color: #EA9191;
+}
+
+#other-product h3 {
+  color: #4B4975;
+}
+
+#product-caroussel h2 {
+  color: #EA9191;
+}
+
+.carousel .carousel-item {
+  background-color: rgb(234, 145, 145, 0.6);
+  height: 600px;
+}
+
+.carousel-item img {
+  mix-blend-mode: multiply;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 600px;
+}
+
+#chocolat, #fraise, #caramel {
+  position: absolute;
+  transform: scale(0);
+}
+
+.input-group span {
+  cursor: pointer;
+}
+
+#quantite {
+  height: auto;
+}
+
 /* FOOTER */
 
 footer {
@@ -109,7 +155,7 @@ footer {
   width: 50%;
 }
 
-input, textarea {
+footer input, footer textarea {
   background-color: rgba(255, 255, 255, 0.35);
   border: none;
   border-radius: 30px;
@@ -126,7 +172,7 @@ input, textarea {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px 0;
   position: relative;
   left: 38%;
-  bottom: 13%;
+  bottom: 11%;
 }
 
 .alt-button:hover {
